@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    
+	
+	<!--The Tyne-Tees Cluster Horizontal H2: Parton to Seaham-->
+	<node id="PARTON" code="PRN" lines="TT" lon="-3.580867" lat="54.569795" name="Parton"/>
+	<node id="H17" code="H17" lines="TT" lon="-3.505008" lat="54.578532" name="H17"/> 
+	<node id="H18" code="H18" lines="TT" lon="-3.429118" lat="54.587221" name="H18"/>
+	<node id="H19" code="H19" lines="TT" lon="-3.353195" lat="54.595862" name="H19"/>
+	<node id="H20" code="H20" lines="TT" lon="-3.277237" lat="54.604457" name="H20"/>
+	<node id="H21" code="H21" lines="TT" lon="-3.201247" lat="54.613003" name="H21"/>
+	<node id="H22" code="H22" lines="TT" lon="-3.125224" lat="54.621502" name="H22"/>
+	<node id="H23" code="H23" lines="TT" lon="-3.049169" lat="54.629953" name="H23"/>
+	<node id="H24" code="H24" lines="TT" lon="-2.973082" lat="54.638357" name="H24"/>
+	<node id="H25" code="H25" lines="TT" lon="-2.896963" lat="54.646713" name="H25"/>
+	<node id="H26" code="H26" lines="TT" lon="-2.820813" lat="54.655021" name="H26"/>
+	<node id="PENRITH" code="PNR" lines="TT" lon="-2.758044" lat="54.661831" name="Penrith"/>
+	<node id="H27" code="H27" lines="TT" lon="-2.710270" lat="54.678297" name="H27"/>
+	<node id="WIGTON" code="LGW" lines="TT" lon="-2.662457" lat="54.694744" name="Langwathby"/> 
+	<node id="H28" code="H28" lines="TT" lon="-2.619994" lat="54.701221" name="H28"/>
+	<node id="H29" code="H29" lines="TT" lon="-2.544940" lat="54.712626" name="H29"/>
+	<node id="H30" code="H30" lines="TT" lon="-2.469843" lat="54.723984" name="H30"/>
+	<node id="H31" code="H31" lines="TT" lon="-2.394706" lat="54.735297" name="H31"/>
+	<node id="H32" code="H32" lines="TT" lon="-2.319526" lat="54.746562" name="H32"/>
+	<node id="H33" code="H33" lines="TT" lon="-2.244305" lat="54.757782" name="H33"/>
+	<node id="H34" code="H34" lines="TT" lon="-2.169041" lat="54.768955" name="H34"/>
+	<node id="H35" code="H35" lines="TT" lon="-2.093736" lat="54.780081" name="H35"/>
+	<node id="H36" code="H36" lines="TT" lon="-2.018390" lat="54.791160" name="H36"/>
+	<node id="H37" code="H37" lines="TT" lon="-1.943003" lat="54.802193" name="H37"/>
+	<node id="H38" code="H38" lines="TT" lon="-1.867575" lat="54.813179" name="H38"/>
+	<node id="H39" code="H39" lines="TT" lon="-1.792106" lat="54.824117" name="H39"/>
+	<node id="H40" code="H40" lines="TT" lon="-1.716597" lat="54.835009" name="H40"/>
+	<node id="H41" code="H41" lines="TT" lon="-1.641047" lat="54.845854" name="H41"/>
+	<node id="CHSTERLST" code="CLS" lines="TT" lon="-1.577847" lat="54.854885" name="Chester-Le-Street"/>
+	<node id="H42" code="H42" lines="TT" lon="-1.500633" lat="54.849053" name="H42"/>
+	<node id="H43" code="H43" lines="TT" lon="-1.423440" lat="54.843172" name="H43"/>
+	<node id="H44" code="H44" lines="TT" lon="-1.346272" lat="54.837240" name="H44"/>
+	<node id="SEAHAM" code="SEA" lines="TT" lon="-1.341019" lat="54.836835" name="Seaham"/> 
+
+
+	<!--EAST-->
+	<edge id="t0" source="PARTON" target="H17">
+		<data key="Weight">546</data>
+	</edge>
+	<edge id="t1" source="H17" target="H18">
+		<data key="Weight">546</data>
+	</edge>
+	<edge id="t2" source="H18" target="H19">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t3" source="H19" target="H20">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t4" source="H20" target="H21">
+		<data key="Weight">367</data>
+	</edge>
+	<edge id="t5" source="H21" target="H22">
+		<data key="Weight">857</data>
+	</edge>
+	<edge id="t6" source="H22" target="H23">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t7" source="H23" target="H24">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t8" source="H24" target="H25">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t9" source="H25" target="H26">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t10" source="H26" target="PENRITH">
+		<data key="Weight">291</data>
+	</edge>
+	<edge id="t11" source="PENRITH" target="H27">
+		<data key="Weight">2582</data>
+	</edge>
+	<edge id="t12" source="H27" target="WIGTON">
+		<data key="Weight">2582</data>
+	</edge>
+	<edge id="t13" source="WIGTON" target="H28">
+		<data key="Weight">2582</data>
+	</edge>
+	<edge id="t14" source="H28" target="H29">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t15" source="H29" target="H30">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t16" source="H30" target="H31">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t17" source="H31" target="H32">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t18" source="H32" target="H33">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t19" source="H33" target="H34">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t20" source="H34" target="H35">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t21" source="H35" target="H36">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t22" source="H36" target="H37">
+		<data key="Weight">383</data>
+	</edge>
+	<edge id="t23" source="H37" target="H38">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t24" source="H38" target="H39">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t25" source="H39" target="H40">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t26" source="H40" target="H41">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t27" source="H41" target="CHSTERLST">
+		<data key="Weight">335</data>
+	</edge>
+	<edge id="t28" source="CHSTERLST" target="H42">
+		<data key="Weight">783</data>
+	</edge>
+	<edge id="t29" source="H42" target="H43">
+		<data key="Weight">400</data>
+	</edge>
+	<edge id="t29" source="H43" target="H44">
+		<data key="Weight">1125</data>
+	</edge>
+	<edge id="t30" source="H44" target="SEAHAM">
+		<data key="Weight">20</data>
+	</edge>
+	
+	<!--WEST-->
+	<edge id="t31" source="H17" target="PARTON">
+		<data key="Weight">546</data>
+	</edge>
+	<edge id="t32" source="H18" target="H17">
+		<data key="Weight">546</data>
+	</edge>
+	<edge id="t33" source="H19" target="H18">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t34" source="H20" target="H19">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t35" source="H21" target="H20">
+		<data key="Weight">367</data>
+	</edge>
+	<edge id="t36" source="H22" target="H21">
+		<data key="Weight">857</data>
+	</edge>
+	<edge id="t37" source="H23" target="H22">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t38" source="H24" target="H23">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t39" source="H25" target="H24">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t40" source="H26" target="H25">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t41" source="PENRITH" target="H26">
+		<data key="Weight">291</data>
+	</edge>
+	<edge id="t42" source="H27" target="PENRITH">
+		<data key="Weight">2582</data>
+	</edge>
+	<edge id="t43" source="WIGTON" target="H27">
+		<data key="Weight">2582</data>
+	</edge>
+	<edge id="t44" source="H28" target="WIGTON">
+		<data key="Weight">2582</data>
+	</edge>
+	<edge id="t45" source="H29" target="H28">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t46" source="H30" target="H29">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t47" source="H31" target="H30">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t48" source="H32" target="H31">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t49" source="H33" target="H32">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t50" source="H34" target="H33">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t51" source="H35" target="H34">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t52" source="H36" target="H35">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t53" source="H37" target="H36">
+		<data key="Weight">383</data>
+	</edge>
+	<edge id="t54" source="H38" target="H37">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t55" source="H39" target="H38">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t56" source="H40" target="H39">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t57" source="H41" target="H40">
+		<data key="Weight">900</data>
+	</edge>
+	<edge id="t58" source="CHSTERLST" target="H41">
+		<data key="Weight">335</data>
+	</edge>
+	<edge id="t59" source="H42" target="CHSTERLST">
+		<data key="Weight">783</data>
+	</edge>
+	<edge id="t60" source="H43" target="H42">
+		<data key="Weight">400</data>
+	</edge>
+	<edge id="t61" source="H44" target="H43">
+		<data key="Weight">1125</data>
+	</edge>
+	<edge id="t62" source="SEAHAM" target="H44">
+		<data key="Weight">20</data>
+	</edge>
+
+  </graph>
+</graphml>
+
+

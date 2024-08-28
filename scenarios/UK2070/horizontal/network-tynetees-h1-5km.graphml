@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    
+	
+	<!--The Tyne-Tees Cluster Horizontal H1: Mayport to Newcastle-->
+	<node id="FLIMBY" code="FLM" lines="TT" lon="-3.520544" lat="54.689815" name="Flimby"/>
+	<node id="MARYPORT" code="MRY" lines="TT" lon="-3.494738" lat="54.711597" name="Maryport"/>
+	<node id="H1" code="H1" lines="TT" lon="-3.425512" lat="54.731914" name="H1"/> 
+	<node id="H2" code="H2" lines="TT" lon="-3.356216" lat="54.752193" name="H2"/>
+	<node id="ASPATRIA" code="ASP" lines="TT" lon="-3.331752" lat="54.759338" name="Aspatria"/>
+	<node id="H3" code="H3" lines="TT" lon="-3.268840" lat="54.785714" name="H3"/>
+	<node id="H4" code="H4" lines="TT" lon="-3.205845" lat="54.812058" name="H4"/>
+	<node id="WIGTON" code="WGT" lines="TT" lon="-3.164373" lat="54.829365" name="Wigton"/> 
+	<node id="H5" code="H5" lines="TT" lon="-3.087603" lat="54.836763" name="H5"/>
+	<node id="H6" code="H6" lines="TT" lon="-3.010804" lat="54.844113" name="H6"/>
+	<node id="DALSTON" code="DLS" lines="TT" lon="-2.988866" lat="54.846203" name="Dalston (Cumbria)"/>
+	<node id="H7" code="H7" lines="TT" lon="-2.961365" lat="54.868442" name="H7"/>
+	<node id="CARLISLE" code="CAR" lines="TT" lon="-2.933833" lat="54.890675" name="Carlisle"/> 
+	<node id="H8" code="H8" lines="TT" lon="-2.883861" lat="54.887002" name="H8"/>
+	<node id="WETHERAL" code="WRL" lines="TT" lon="-2.833897" lat="54.883308" name="Wetheral"/>
+	<node id="H9" code="H9" lines="TT" lon="-2.768806" lat="54.908033" name="H9"/>
+	<node id="BRAMPTON" code="BMP" lines="TT" lon="-2.703814" lat="54.932655" name="Brampton (Cumbria)"/>
+	<node id="H10" code="H10" lines="TT" lon="-2.628202" lat="54.943771" name="H10"/> 
+	<node id="H11" code="H11" lines="TT" lon="-2.552548" lat="54.954840" name="H11"/>
+	<node id="H12" code="H12" lines="TT" lon="-2.476851" lat="54.965862" name="H12"/>
+	<node id="HALWHISLE" code="HWH" lines="TT" lon="-2.462321" lat="54.967972" name="Haltwhistle"/>
+	<node id="H13" code="H13" lines="TT" lon="-2.406126" lat="54.971317" name="H13"/>
+	<node id="BARDONMIL" code="BLL" lines="TT" lon="-2.349922" lat="54.974636" name="Bardon Mill"/> 
+	<node id="H14" code="H14" lines="TT" lon="-2.298366" lat="54.974773" name="H14"/>
+	<node id="HAYBRID" code="HDB" lines="TT" lon="-2.246809" lat="54.974888" name="Haydon Bridge"/>
+	<node id="H15" code="H15" lines="TT" lon="-2.168700" lat="54.974558" name="H15"/>
+	<node id="HEXHAM" code="HEX" lines="TT" lon="-2.095266" lat="54.974201" name="Hexham"/>
+	<node id="CODBRIGE" code="CRB" lines="TT" lon="-2.017141" lat="54.966152" name="Corbridge"/> 
+	<node id="RIDNGMIL" code="RDM" lines="TT" lon="-1.971860" lat="54.949066" name="Riding Mill"/>
+	<node id="STOCKFILD" code="SKS" lines="TT" lon="-1.917227" lat="54.946350" name="Stocksfield"/>
+	<node id="PRUDHOE" code="PRU" lines="TT" lon="-1.864077" lat="54.966072" name="Prudhoe"/>
+	<node id="WYLAM" code="WYM" lines="TT" lon="-1.814058" lat="54.974991" name="Wylam"/>
+	<node id="H16" code="H16" lines="TT" lon="-1.762828" lat="54.970472" name="H16"/> 
+	<node id="BLAYDON" code="BLO" lines="TT" lon="-1.712578" lat="54.965813" name="Blaydon"/>
+	<node id="METROCEN" code="MCE" lines="TT" lon="-1.662656" lat="54.958492" name="Metrocentre"/>
+	<node id="DUSTON" code="DOT" lines="TT" lon="-1.648648" lat="54.952164" name="Dunston"/>
+	<node id="NWCASTLE" code="NCL" lines="TT" lon="-1.617264" lat="54.968243" name="Newcastle"/>
+	<node id="MANORS" code="MAS" lines="TT" lon="-1.606296" lat="54.972698" name="Manors"/> 
+	<node id="HEWORTH" code="HEW" lines="TT" lon="-1.554976" lat="54.951862" name="Heworth"/>
+	<node id="FELLGATE" code="FEG" lines="TT" lon="-1.487800" lat="54.957000" name="Fellgate"/>
+	<node id="BROKLYWHIN" code="BNR" lines="TT" lon="-1.462749" lat="54.958672" name="Brockley Whins"/>
+	<node id="EBOLDON" code="EBL" lines="TT" lon="-1.420767" lat="54.946800" name="East Boldon"/>
+	
+
+
+	<!--EAST-->
+	<edge id="t0" source="FLIMBY" target="MARYPORT">
+		<data key="Weight">235</data>
+	</edge>
+	<edge id="t1" source="MARYPORT" target="H1">
+		<data key="Weight">471</data>
+	</edge>
+	<edge id="t2" source="H1" target="H2">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t3" source="H2" target="ASPATRIA">
+		<data key="Weight">106</data>
+	</edge>
+	<edge id="t4" source="ASPATRIA" target="H3">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t5" source="H3" target="H4">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t6" source="H4" target="WIGTON">
+		<data key="Weight">197</data>
+	</edge>
+	<edge id="t7" source="WIGTON" target="H5">
+		<data key="Weight">340</data>
+	</edge>
+	<edge id="t8" source="H5" target="H6">
+		<data key="Weight">474</data>
+	</edge>
+	<edge id="t9" source="H6" target="DALSTON">
+		<data key="Weight">135</data>
+	</edge>
+	<edge id="t10" source="DALSTON" target="H7">
+		<data key="Weight">288</data>
+	</edge>
+	<edge id="t11" source="H7" target="CARLISLE">
+		<data key="Weight">421</data>
+	</edge>
+	<edge id="t12" source="CARLISLE" target="H8">
+		<data key="Weight">388</data>
+	</edge>
+	<edge id="t13" source="H8" target="WETHERAL">
+		<data key="Weight">388</data>
+	</edge>
+	<edge id="t14" source="WETHERAL" target="H9">
+		<data key="Weight">600</data>
+	</edge>
+	<edge id="t15" source="H9" target="BRAMPTON">
+		<data key="Weight">326</data>
+	</edge>
+	<edge id="t16" source="BRAMPTON" target="H10">
+		<data key="Weight">327</data>
+	</edge>
+	<edge id="t17" source="H10" target="H11">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t18" source="H11" target="H12">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t19" source="H12" target="HALWHISLE">
+		<data key="Weight">58</data>
+	</edge>
+	<edge id="t20" source="HALWHISLE" target="H13">
+		<data key="Weight">217</data>
+	</edge>
+	<edge id="t21" source="H13" target="BARDONMIL">
+		<data key="Weight">217</data>
+	</edge>
+	<edge id="t22" source="BARDONMIL" target="H14">
+		<data key="Weight">170</data>
+	</edge>
+	<edge id="t23" source="H14" target="HAYBRID">
+		<data key="Weight">170</data>
+	</edge>
+	<edge id="t24" source="HAYBRID" target="H15">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t25" source="H15" target="HEXHAM">
+		<data key="Weight">282</data>
+	</edge>
+	<edge id="t26" source="HEXHAM" target="CODBRIGE">
+		<data key="Weight">229</data>
+	</edge>
+	<edge id="t27" source="CODBRIGE" target="RIDNGMIL">
+		<data key="Weight">156</data>
+	</edge>
+	<edge id="t28" source="RIDNGMIL" target="STOCKFILD">
+		<data key="Weight">158</data>
+	</edge>
+	<edge id="t29" source="STOCKFILD" target="PRUDHOE">
+		<data key="Weight">304</data>
+	</edge>
+	<edge id="t30" source="PRUDHOE" target="WYLAM">
+		<data key="Weight">268</data>
+	</edge>
+	<edge id="t31" source="WYLAM" target="H16">
+		<data key="Weight">443</data>
+	</edge>
+	<edge id="t32" source="H16" target="BLAYDON">
+		<data key="Weight">293</data>
+	</edge>
+	<edge id="t33" source="BLAYDON" target="METROCEN">
+		<data key="Weight">330</data>
+	</edge>
+	<edge id="t34" source="METROCEN" target="DUSTON">
+		<data key="Weight">103</data>
+	</edge>
+	<edge id="t35" source="DUSTON" target="NWCASTLE">
+		<data key="Weight">485</data>
+	</edge>
+	<edge id="t36" source="NWCASTLE" target="MANORS">
+		<data key="Weight">103</data>
+	</edge>
+	<edge id="t37" source="MANORS" target="HEWORTH">
+		<data key="Weight">658</data>
+	</edge>
+	<edge id="t38" source="HEWORTH" target="FELLGATE">
+		<data key="Weight">474</data>
+	</edge>
+	<edge id="t39" source="FELLGATE" target="BROKLYWHIN">
+		<data key="Weight">145</data>
+	</edge>
+	<edge id="t40" source="BROKLYWHIN" target="EBOLDON">
+		<data key="Weight">240</data>
+	</edge>
+	
+	<!--WEST-->
+	<edge id="t41" source="MARYPORT" target="FLIMBY">
+		<data key="Weight">235</data>
+	</edge>
+	<edge id="t42" source="H1" target="MARYPORT">
+		<data key="Weight">471</data>
+	</edge>
+	<edge id="t43" source="H2" target="H1">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t44" source="ASPATRIA" target="H2">
+		<data key="Weight">106</data>
+	</edge>
+	<edge id="t45" source="H3" target="ASPATRIA">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t46" source="H4" target="H3">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t47" source="WIGTON" target="H4">
+		<data key="Weight">197</data>
+	</edge>
+	<edge id="t48" source="H5" target="WIGTON">
+		<data key="Weight">340</data>
+	</edge>
+	<edge id="t49" source="H6" target="H5">
+		<data key="Weight">474</data>
+	</edge>
+	<edge id="t50" source="DALSTON" target="H6">
+		<data key="Weight">135</data>
+	</edge>
+	<edge id="t51" source="H7" target="DALSTON">
+		<data key="Weight">288</data>
+	</edge>
+	<edge id="t52" source="CARLISLE" target="H7">
+		<data key="Weight">421</data>
+	</edge>
+	<edge id="t53" source="H8" target="CARLISLE">
+		<data key="Weight">388</data>
+	</edge>
+	<edge id="t54" source="WETHERAL" target="H8">
+		<data key="Weight">388</data>
+	</edge>
+	<edge id="t55" source="H9" target="WETHERAL">
+		<data key="Weight">600</data>
+	</edge>
+	<edge id="t56" source="BRAMPTON" target="H9">
+		<data key="Weight">326</data>
+	</edge>
+	<edge id="t57" source="H10" target="BRAMPTON">
+		<data key="Weight">327</data>
+	</edge>
+	<edge id="t58" source="H11" target="H10">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t59" source="H12" target="H11">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t60" source="HALWHISLE" target="H12">
+		<data key="Weight">58</data>
+	</edge>
+	<edge id="t61" source="H13" target="HALWHISLE">
+		<data key="Weight">217</data>
+	</edge>
+	<edge id="t62" source="BARDONMIL" target="H13">
+		<data key="Weight">217</data>
+	</edge>
+	<edge id="t63" source="H14" target="BARDONMIL">
+		<data key="Weight">170</data>
+	</edge>
+	<edge id="t64" source="HAYBRID" target="H14">
+		<data key="Weight">170</data>
+	</edge>
+	<edge id="t65" source="H15" target="HAYBRID">
+		<data key="Weight">300</data>
+	</edge>
+	<edge id="t66" source="HEXHAM" target="H15">
+		<data key="Weight">282</data>
+	</edge>
+	<edge id="t67" source="CODBRIGE" target="HEXHAM">
+		<data key="Weight">229</data>
+	</edge>
+	<edge id="t68" source="RIDNGMIL" target="CODBRIGE">
+		<data key="Weight">156</data>
+	</edge>
+	<edge id="t69" source="STOCKFILD" target="RIDNGMIL">
+		<data key="Weight">158</data>
+	</edge>
+	<edge id="t70" source="PRUDHOE" target="STOCKFILD">
+		<data key="Weight">304</data>
+	</edge>
+	<edge id="t71" source="WYLAM" target="PRUDHOE">
+		<data key="Weight">268</data>
+	</edge>
+	<edge id="t72" source="H16" target="WYLAM">
+		<data key="Weight">443</data>
+	</edge>
+	<edge id="t73" source="BLAYDON" target="H16">
+		<data key="Weight">293</data>
+	</edge>
+	<edge id="t74" source="METROCEN" target="BLAYDON">
+		<data key="Weight">330</data>
+	</edge>
+	<edge id="t75" source="DUSTON" target="METROCEN">
+		<data key="Weight">103</data>
+	</edge>
+	<edge id="t76" source="NWCASTLE" target="DUSTON">
+		<data key="Weight">485</data>
+	</edge>
+	<edge id="t77" source="MANORS" target="NWCASTLE">
+		<data key="Weight">103</data>
+	</edge>
+	<edge id="t78" source="HEWORTH" target="MANORS">
+		<data key="Weight">658</data>
+	</edge>
+	<edge id="t79" source="FELLGATE" target="HEWORTH">
+		<data key="Weight">474</data>
+	</edge>
+	<edge id="t80" source="BROKLYWHIN" target="FELLGATE">
+		<data key="Weight">145</data>
+	</edge>
+	<edge id="t81" source="EBOLDON" target="BROKLYWHIN">
+		<data key="Weight">240</data>
+	</edge>
+	
+
+  </graph>
+</graphml>
+
+

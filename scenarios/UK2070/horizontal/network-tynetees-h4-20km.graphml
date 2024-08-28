@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    
+	
+	<!--The Tyne-Tees Cluster Horizontal H4: Askam-in-Furness to Middlesbrough Route 2-->
+	<node id="ASKAM" code="ASK" lines="TT" lon="-3.204545" lat="54.189049" name="Askam"/>
+	<node id="ULVRSTON" code="ULV" lines="TT" lon="-3.097327" lat="54.191872" name="Ulverston"/>
+	<node id="CARK" code="CAK" lines="TT" lon="-2.972746" lat="54.177513" name="Cark"/>
+	<node id="GRNGEOSND" code="GOS" lines="TT" lon="-2.902752" lat="54.195282" name="Grange-Over-Sands"/>
+	<node id="ARNSIDE" code="ARN" lines="TT" lon="-2.827783" lat="54.202114" name="Arnside"/>
+	<node id="OXHOLMLAK" code="OXN" lines="TT" lon="-2.722249" lat="54.305169" name="Oxenholme Lake District"/>
+	<node id="H10" code="H10" lines="TT" lon="-2.415614" lat="54.317802" name="H10"/>
+	<node id="GARSDALE" code="GSD" lines="TT" lon="-2.325891" lat="54.321350" name="Garsdale"/>
+	<node id="H11" code="H11" lines="TT" lon="-2.044493" lat="54.394117" name="H11"/>
+	<node id="H12" code="H12" lines="TT" lon="-1.762102" lat="54.466227" name="H12"/>
+	<node id="DARLINGTON" code="DAR" lines="TT" lon="-1.547320" lat="54.520462" name="Darlington"/>
+	<node id="DINSDALE" code="DND" lines="TT" lon="-1.467051" lat="54.514740" name="Dinsdale"/>
+	<node id="TESIDEAPT" code="TEA" lines="TT" lon="-1.425305" lat="54.518147" name="Teesside Airport"/>
+	<node id="ALLENSW" code="ALW" lines="TT" lon="-1.363418" lat="54.524128" name="Allens West"/>
+	<node id="EAGLESCLIF" code="EAG" lines="TT" lon="-1.349426" lat="54.529449" name="Eaglescliffe"/>
+	<node id="THORNABY" code="TBY" lines="TT" lon="-1.301006" lat="54.559734" name="Thornaby"/>
+	<node id="MIDLBROGH" code="MBR" lines="TT" lon="-1.232596" lat="54.579086" name="Middlesbrough"/> 
+
+
+	<!--EAST-->
+	<edge id="t0" source="ASKAM" target="ULVRSTON">
+		<data key="Weight">1681</data>
+	</edge>
+	<edge id="t1" source="ULVRSTON" target="CARK">
+		<data key="Weight">635</data>
+	</edge>
+	<edge id="t2" source="CARK" target="GRNGEOSND">
+		<data key="Weight">381</data>
+	</edge>
+	<edge id="t3" source="GRNGEOSND" target="ARNSIDE">
+		<data key="Weight">415</data>
+	</edge>
+	<edge id="t4" source="ARNSIDE" target="OXHOLMLAK">
+		<data key="Weight">2534</data>
+	</edge>
+	<edge id="t5" source="OXHOLMLAK" target="H10">
+		<data key="Weight">5541</data>
+	</edge>
+	<edge id="t6" source="H10" target="GARSDALE">
+		<data key="Weight">5852</data>
+	</edge>
+	<edge id="t7" source="GARSDALE" target="H11">
+		<data key="Weight">1470</data>
+	</edge>
+	<edge id="t8" source="H11" target="H12">
+		<data key="Weight">7203</data>
+	</edge>
+	<edge id="t9" source="H12" target="DARLINGTON">
+		<data key="Weight">1162</data>
+	</edge>
+	<edge id="t10" source="DARLINGTON" target="DINSDALE">
+		<data key="Weight">314</data>
+	</edge>
+	<edge id="t11" source="DINSDALE" target="TESIDEAPT">
+		<data key="Weight">164</data>
+	</edge>
+	<edge id="t12" source="TESIDEAPT" target="ALLENSW">
+		<data key="Weight">276</data>
+	</edge>
+	<edge id="t13" source="ALLENSW" target="EAGLESCLIF">
+		<data key="Weight">74</data>
+	</edge>
+	<edge id="t14" source="EAGLESCLIF" target="THORNABY">
+		<data key="Weight">331</data>
+	</edge>
+	<edge id="t15" source="THORNABY" target="MIDLBROGH">
+		<data key="Weight">466</data>
+	</edge>
+
+	<!--WEST-->
+	<edge id="t16" source="ULVRSTON" target="ASKAM">
+		<data key="Weight">1681</data>
+	</edge>
+	<edge id="t17" source="CARK" target="ULVRSTON">
+		<data key="Weight">635</data>
+	</edge>
+	<edge id="t18" source="GRNGEOSND" target="CARK">
+		<data key="Weight">381</data>
+	</edge>
+	<edge id="t19" source="ARNSIDE" target="GRNGEOSND">
+		<data key="Weight">415</data>
+	</edge>
+	<edge id="t20" source="OXHOLMLAK" target="ARNSIDE">
+		<data key="Weight">2534</data>
+	</edge>
+	<edge id="t21" source="H10" target="OXHOLMLAK">
+		<data key="Weight">5541</data>
+	</edge>
+	<edge id="t22" source="GARSDALE" target="H10">
+		<data key="Weight">5852</data>
+	</edge>
+	<edge id="t23" source="H11" target="GARSDALE">
+		<data key="Weight">1470</data>
+	</edge>
+	<edge id="t24" source="H12" target="H11">
+		<data key="Weight">7203</data>
+	</edge>
+	<edge id="t25" source="DARLINGTON" target="H12">
+		<data key="Weight">1162</data>
+	</edge>
+	<edge id="t26" source="DINSDALE" target="DARLINGTON">
+		<data key="Weight">314</data>
+	</edge>
+	<edge id="t27" source="TESIDEAPT" target="DINSDALE">
+		<data key="Weight">164</data>
+	</edge>
+	<edge id="t28" source="ALLENSW" target="TESIDEAPT">
+		<data key="Weight">276</data>
+	</edge>
+	<edge id="t29" source="EAGLESCLIF" target="ALLENSW">
+		<data key="Weight">74</data>
+	</edge>
+	<edge id="t30" source="THORNABY" target="EAGLESCLIF">
+		<data key="Weight">331</data>
+	</edge>
+	<edge id="t31" source="MIDLBROGH" target="THORNABY">
+		<data key="Weight">466</data>
+	</edge>
+
+  </graph>
+</graphml>
+
+

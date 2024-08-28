@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    
+	
+	<!--The Tyne-Tees Cluster: Triangle connecting Lancaster, Newcastle & Darlington-->
+	<node id="LANCASTER" code="LAN" lines="TT" lon="-2.807934" lat="54.048553" name="Lancaster"/>
+	<node id="BARELANE" code="BAR" lines="TT" lon="-2.835331" lat="54.074473" name="Bare Lane"/>
+	<node id="CANFORTH" code="CNF" lines="TT" lon="-2.771244" lat="54.129688" name="Carnforth"/>
+	<node id="SLVRDALE" code="SVR" lines="TT" lon="-2.804164" lat="54.169922" name="Silverdale"/>
+	<node id="ARNSIDE" code="ARN" lines="TT" lon="-2.827783" lat="54.202114" name="Arnside"/>
+	<node id="T20" code="T20" lines="TT" lon="-2.775081" lat="54.253653" name="T20"/>
+	<node id="OXHOLME" code="OXN" lines="TT" lon="-2.722249" lat="54.305169" name="Oxenholme Lake District"/>
+	<node id="KENDAL" code="KEN" lines="TT" lon="-2.739667" lat="54.332108" name="Kendal"/>
+	<node id="BURNSIDE" code="BUD" lines="TT" lon="-2.766231" lat="54.355305" name="Burneside"/>
+	<node id="T1" code="T1" lines="TT" lon="-2.676119" lat="54.428181" name="T1"/>
+	<node id="T2" code="T2" lines="TT" lon="-2.585688" lat="54.500989" name="T2"/> 
+	<node id="T3" code="T3" lines="TT" lon="-2.494935" lat="54.573729" name="T3"/>
+	<node id="APPLEBY" code="APP" lines="TT" lon="-2.486692" lat="54.580320" name="Appleby"/> 
+	<node id="T4" code="T4" lines="TT" lon="-2.381478" lat="54.646250" name="T4"/>
+	<node id="T5" code="T5" lines="TT" lon="-2.275923" lat="54.712088" name="T5"/>
+	<node id="T6" code="T6" lines="TT" lon="-2.170026" lat="54.777834" name="T6"/>
+	<node id="T7" code="T7" lines="TT" lon="-2.063785" lat="54.843487" name="T7"/>
+	<node id="T8" code="T8" lines="TT" lon="-1.957199" lat="54.909046" name="T8"/> 
+	<node id="PRUDHOE" code="PRU" lines="TT" lon="-1.864077" lat="54.966072" name="Prudhoe"/>
+	<node id="WYLAM" code="WYM" lines="TT" lon="-1.814058" lat="54.974991" name="Wylam"/>
+	<node id="NWCASTLE" code="APN" lines="TT" lon="-1.712090" lat="55.035880" name="Newcastle Airport"/> 
+	<node id="CAMLINTN" code="CRM" lines="TT" lon="-1.598887" lat="55.088604" name="Cramlington"/>
+	<node id="T9" code="T9" lines="TT" lon="-1.602597" lat="55.030652" name="T9"/>
+	<node id="MANORS" code="MAS" lines="TT" lon="-1.606296" lat="54.972698" name="Manors"/> 
+	<node id="T10" code="T10" lines="TT" lon="-1.592050" lat="54.913793" name="T10"/>
+	<node id="CHESTER" code="CLS" lines="TT" lon="-1.577847" lat="54.854885" name="Chester-Le-Street"/>
+	<node id="DURHAM" code="DHM" lines="TT" lon="-1.581746" lat="54.779408" name="Durham"/>
+	<node id="T11" code="T11" lines="TT" lon="-1.629718" lat="54.718455" name="T11"/>
+	<node id="BISHOP" code="BIA" lines="TT" lon="-1.677545" lat="54.657482" name="Bishop Auckland"/>
+	<node id="SHILDON" code="SHD" lines="TT" lon="-1.637515" lat="54.626816" name="Shildon"/>
+	<node id="HIGHTON" code="HEI" lines="TT" lon="-1.582071" lat="54.596977" name="Heighington"/>
+	<node id="NROAD" code="NRD" lines="TT" lon="-1.554856" lat="54.536667" name="North Road"/> 
+	<node id="DARLITON" code="DAR" lines="TT" lon="-1.547320" lat="54.520462" name="Darlington"/>
+	<node id="T12" code="T12" lines="TT" lon="-1.620535" lat="54.502033" name="T12"/>
+	<node id="T13" code="T13" lines="TT" lon="-1.762102" lat="54.466227" name="T13"/>
+	<node id="T14" code="T14" lines="TT" lon="-1.903421" lat="54.430255" name="T14"/>
+	<node id="T15" code="T15" lines="TT" lon="-2.044493" lat="54.394117" name="T15"/> 
+	<node id="T16" code="T16" lines="TT" lon="-2.185316" lat="54.357816" name="T16"/>
+	<node id="GARDALE" code="GSD" lines="TT" lon="-2.325891" lat="54.321350" name="Garsdale"/>
+	<node id="DENT" code="DNT" lines="TT" lon="-2.363987" lat="54.282597" name="Dent"/>
+	<node id="T17" code="T17" lines="TT" lon="-2.466589" lat="54.228886" name="T17"/>
+	<node id="T18" code="T18" lines="TT" lon="-2.580701" lat="54.168883" name="T18"/> 
+	<node id="T19" code="T19" lines="TT" lon="-2.694482" lat="54.108771" name="T19"/>
+
+
+	<!--NORTH EAST-->
+	<edge id="t0" source="LANCASTER" target="BARELANE">
+		<data key="Weight">408</data>
+	</edge>
+	<edge id="t1" source="BARELANE" target="CANFORTH">
+		<data key="Weight">638</data>
+	</edge>
+	<edge id="t2" source="CANFORTH" target="SLVRDALE">
+		<data key="Weight">426</data>
+	</edge>
+	<edge id="t3" source="SLVRDALE" target="ARNSIDE">
+		<data key="Weight">234</data>
+	</edge>
+	<edge id="t4" source="ARNSIDE" target="T20">
+		<data key="Weight">2189</data>
+	</edge>
+	<edge id="t5" source="T20" target="OXHOLME">
+		<data key="Weight">510</data>
+	</edge>
+	<edge id="t6" source="OXHOLME" target="KENDAL">
+		<data key="Weight">1171</data>
+	</edge>
+	<edge id="t7" source="KENDAL" target="BURNSIDE">
+		<data key="Weight">1118</data>
+	</edge>
+	<edge id="t8" source="BURNSIDE" target="T1">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t9" source="T1" target="T2">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t10" source="T2" target="T3">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t11" source="T3" target="APPLEBY">
+		<data key="Weight">44</data>
+	</edge>
+	<edge id="t12" source="APPLEBY" target="T4">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t13" source="T4" target="T5">
+		<data key="Weight">5145</data>
+	</edge>
+	<edge id="t14" source="T5" target="T6">
+		<data key="Weight">4502</data>
+	</edge>
+	<edge id="t15" source="T6" target="T7">
+		<data key="Weight">4502</data>
+	</edge>
+	<edge id="t16" source="T7" target="T8">
+		<data key="Weight">1286</data>
+	</edge>
+	<edge id="t17" source="T8" target="PRUDHOE">
+		<data key="Weight">654</data>
+	</edge>
+	<edge id="t18" source="PRUDHOE" target="WYLAM">
+		<data key="Weight">268</data>
+	</edge>
+	<edge id="t19" source="WYLAM" target="NWCASTLE">
+		<data key="Weight">5645</data>
+	</edge>
+	<edge id="t20" source="NWCASTLE" target="CAMLINTN">
+		<data key="Weight">4791</data>
+	</edge>
+	<edge id="t21" source="CAMLINTN" target="T9">
+		<data key="Weight">1291</data>
+	</edge>
+	<edge id="t22" source="T9" target="MANORS">
+		<data key="Weight">830</data>
+	</edge>
+	<edge id="t23" source="MANORS" target="T10">
+		<data key="Weight">568</data>
+	</edge>
+	<edge id="t24" source="T10" target="CHESTER">
+		<data key="Weight">507</data>
+	</edge>
+	<edge id="t25" source="CHESTER" target="DURHAM">
+		<data key="Weight">439</data>
+	</edge>
+	<edge id="t26" source="DURHAM" target="T11">
+		<data key="Weight">1167</data>
+	</edge>
+	<edge id="t27" source="T11" target="BISHOP">
+		<data key="Weight">2684</data>
+	</edge>
+	<edge id="t28" source="BISHOP" target="SHILDON">
+		<data key="Weight">321</data>
+	</edge>
+	<edge id="t29" source="SHILDON" target="HIGHTON">
+		<data key="Weight">489</data>
+	</edge>
+	<edge id="t30" source="HIGHTON" target="NROAD">
+		<data key="Weight">555</data>
+	</edge>
+	<edge id="t31" source="NROAD" target="DARLITON">
+		<data key="Weight">112</data>
+	</edge>
+	<edge id="t32" source="DARLITON" target="T12">
+		<data key="Weight">396</data>
+	</edge>
+	<edge id="t33" source="T12" target="T13">
+		<data key="Weight">766</data>
+	</edge>
+	<edge id="t34" source="T13" target="T14">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t35" source="T14" target="T15">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t36" source="T15" target="T16">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t37" source="T16" target="GARDALE">
+		<data key="Weight">735</data>
+	</edge>
+	<edge id="t38" source="GARDALE" target="DENT">
+		<data key="Weight">366</data>
+	</edge>
+	<edge id="t39" source="DENT" target="T17">
+		<data key="Weight">1242</data>
+	</edge>
+	<edge id="t40" source="T17" target="T18">
+		<data key="Weight">1385</data>
+	</edge>
+	<edge id="t41" source="T18" target="T19">
+		<data key="Weight">1715</data>
+	</edge>
+	<edge id="t42" source="T19" target="LANCASTER">
+		<data key="Weight">720</data>
+	</edge>
+
+	<!--EAST-->
+	<edge id="t43" source="BARELANE" target="LANCASTER">
+		<data key="Weight">408</data>
+	</edge>
+	<edge id="t44" source="CANFORTH" target="BARELANE">
+		<data key="Weight">638</data>
+	</edge>
+	<edge id="t45" source="SLVRDALE" target="CANFORTH">
+		<data key="Weight">426</data>
+	</edge>
+	<edge id="t46" source="ARNSIDE" target="SLVRDALE">
+		<data key="Weight">234</data>
+	</edge>
+	<edge id="t47" source="T20" target="ARNSIDE">
+		<data key="Weight">2189</data>
+	</edge>
+	<edge id="t48" source="OXHOLME" target="T20">
+		<data key="Weight">510</data>
+	</edge>
+	<edge id="t49" source="KENDAL" target="OXHOLME">
+		<data key="Weight">1171</data>
+	</edge>
+	<edge id="t50" source="BURNSIDE" target="KENDAL">
+		<data key="Weight">1118</data>
+	</edge>
+	<edge id="t51" source="T1" target="BURNSIDE">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t52" source="T2" target="T1">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t53" source="T3" target="T2">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t54" source="APPLEBY" target="T3">
+		<data key="Weight">44</data>
+	</edge>
+	<edge id="t55" source="T4" target="APPLEBY">
+		<data key="Weight">487</data>
+	</edge>
+	<edge id="t56" source="T5" target="T4">
+		<data key="Weight">5145</data>
+	</edge>
+	<edge id="t57" source="T6" target="T5">
+		<data key="Weight">4502</data>
+	</edge>
+	<edge id="t58" source="T7" target="T6">
+		<data key="Weight">4502</data>
+	</edge>
+	<edge id="t59" source="T8" target="T7">
+		<data key="Weight">1286</data>
+	</edge>
+	<edge id="t60" source="PRUDHOE" target="T8">
+		<data key="Weight">654</data>
+	</edge>
+	<edge id="t61" source="WYLAM" target="PRUDHOE">
+		<data key="Weight">268</data>
+	</edge>
+	<edge id="t62" source="NWCASTLE" target="WYLAM">
+		<data key="Weight">5645</data>
+	</edge>
+	<edge id="t63" source="CAMLINTN" target="NWCASTLE">
+		<data key="Weight">4791</data>
+	</edge>
+	<edge id="t64" source="T9" target="CAMLINTN">
+		<data key="Weight">1291</data>
+	</edge>
+	<edge id="t65" source="MANORS" target="T9">
+		<data key="Weight">830</data>
+	</edge>
+	<edge id="t66" source="T10" target="MANORS">
+		<data key="Weight">568</data>
+	</edge>
+	<edge id="t67" source="CHESTER" target="T10">
+		<data key="Weight">507</data>
+	</edge>
+	<edge id="t68" source="DURHAM" target="CHESTER">
+		<data key="Weight">439</data>
+	</edge>
+	<edge id="t69" source="T11" target="DURHAM">
+		<data key="Weight">1167</data>
+	</edge>
+	<edge id="t70" source="BISHOP" target="T11">
+		<data key="Weight">2684</data>
+	</edge>
+	<edge id="t71" source="SHILDON" target="BISHOP">
+		<data key="Weight">321</data>
+	</edge>
+	<edge id="t72" source="HIGHTON" target="SHILDON">
+		<data key="Weight">489</data>
+	</edge>
+	<edge id="t73" source="NROAD" target="HIGHTON">
+		<data key="Weight">555</data>
+	</edge>
+	<edge id="t74" source="DARLITON" target="NROAD">
+		<data key="Weight">112</data>
+	</edge>
+	<edge id="t75" source="T12" target="DARLITON">
+		<data key="Weight">396</data>
+	</edge>
+	<edge id="t76" source="T13" target="T12">
+		<data key="Weight">766</data>
+	</edge>
+	<edge id="t77" source="T14" target="T13">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t78" source="T15" target="T14">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t79" source="T16" target="T15">
+		<data key="Weight">3601</data>
+	</edge>
+	<edge id="t80" source="GARDALE" target="T16">
+		<data key="Weight">735</data>
+	</edge>
+	<edge id="t81" source="DENT" target="GARDALE">
+		<data key="Weight">366</data>
+	</edge>
+	<edge id="t82" source="T17" target="DENT">
+		<data key="Weight">1242</data>
+	</edge>
+	<edge id="t83" source="T18" target="T17">
+		<data key="Weight">1385</data>
+	</edge>
+	<edge id="t84" source="T19" target="T18">
+		<data key="Weight">1715</data>
+	</edge>
+	<edge id="t85" source="LANCASTER" target="T19">
+		<data key="Weight">720</data>
+	</edge>
+
+
+  </graph>
+</graphml>
+
+

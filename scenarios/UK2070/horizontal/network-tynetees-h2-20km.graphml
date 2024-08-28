@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    
+	
+	<!--The Tyne-Tees Cluster Horizontal H2: Parton to Seaham-->
+	<node id="PARTON" code="PRN" lines="TT" lon="-3.580867" lat="54.569795" name="Parton"/>
+	<node id="H1" code="H1" lines="TT" lon="-3.277237" lat="54.604457" name="H1"/> 
+	<node id="H2" code="H2" lines="TT" lon="-2.973082" lat="54.638357" name="H2"/>
+	<node id="PENRITH" code="PNR" lines="TT" lon="-2.758044" lat="54.661831" name="Penrith"/>
+	<node id="WIGTON" code="LGW" lines="TT" lon="-2.662457" lat="54.694744" name="Langwathby"/> 
+	<node id="H3" code="H3" lines="TT" lon="-2.362085" lat="54.740191" name="H3"/>
+	<node id="H4" code="H4" lines="TT" lon="-2.061043" lat="54.784895" name="H4"/>
+	<node id="H5" code="H5" lines="TT" lon="-1.759343" lat="54.828849" name="H5"/>
+	<node id="CHSTERLST" code="CLS" lines="TT" lon="-1.577847" lat="54.854885" name="Chester-Le-Street"/>
+	<node id="SEAHAM" code="SEA" lines="TT" lon="-1.341019" lat="54.836835" name="Seaham"/> 
+
+
+	<!--EAST-->
+	<edge id="t0" source="PARTON" target="H1">
+		<data key="Weight">2667</data>
+	</edge>
+	<edge id="t1" source="H1" target="H2">
+		<data key="Weight">5145</data>
+	</edge>
+	<edge id="t2" source="H2" target="PENRITH">
+		<data key="Weight">997</data>
+	</edge>
+	<edge id="t3" source="PENRITH" target="WIGTON">
+		<data key="Weight">7173</data>
+	</edge>
+	<edge id="t4" source="WIGTON" target="H3">
+		<data key="Weight">14406</data>
+	</edge>
+	<edge id="t5" source="H3" target="H4">
+		<data key="Weight">4802</data>
+	</edge>
+	<edge id="t6" source="H4" target="H5">
+		<data key="Weight">1847</data>
+	</edge>
+	<edge id="t7" source="H5" target="CHSTERLST">
+		<data key="Weight">1802</data>
+	</edge>
+	<edge id="t8" source="CHSTERLST" target="SEAHAM">
+		<data key="Weight">2631</data>
+	</edge>
+	
+	<!--WEST-->
+	<edge id="t9" source="H1" target="PARTON">
+		<data key="Weight">2667</data>
+	</edge>
+	<edge id="t10" source="H2" target="H1">
+		<data key="Weight">5145</data>
+	</edge>
+	<edge id="t11" source="PENRITH" target="H2">
+		<data key="Weight">997</data>
+	</edge>
+	<edge id="t12" source="WIGTON" target="PENRITH">
+		<data key="Weight">7173</data>
+	</edge>
+	<edge id="t13" source="H3" target="WIGTON">
+		<data key="Weight">14406</data>
+	</edge>
+	<edge id="t14" source="H4" target="H3">
+		<data key="Weight">4802</data>
+	</edge>
+	<edge id="t15" source="H5" target="H4">
+		<data key="Weight">1847</data>
+	</edge>
+	<edge id="t16" source="CHSTERLST" target="H5">
+		<data key="Weight">1802</data>
+	</edge>
+	<edge id="t17" source="SEAHAM" target="CHSTERLST">
+		<data key="Weight">2631</data>
+	</edge>
+	
+
+  </graph>
+</graphml>
+
+

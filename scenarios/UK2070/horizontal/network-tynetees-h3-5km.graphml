@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    
+	
+	<!--The Tyne-Tees Cluster Horizontal H3: Askam-in-Furness to Middlesbrough Route 1-->
+	<node id="ASKAM" code="ASK" lines="TT" lon="-3.204545" lat="54.189049" name="Askam"/>
+	<node id="H45" code="H45" lines="TT" lon="-3.150938" lat="54.190472" name="H45"/> 
+	<node id="ULVRSTON" code="ULV" lines="TT" lon="-3.097327" lat="54.191872" name="Ulverston"/>
+	<node id="H46" code="H46" lines="TT" lon="-3.035026" lat="54.184709" name="H46"/>
+	<node id="CARK" code="CAK" lines="TT" lon="-2.972746" lat="54.177513" name="Cark"/>
+	<node id="GRNGEOSND" code="GOS" lines="TT" lon="-2.902752" lat="54.195282" name="Grange-Over-Sands"/>
+	<node id="ARNSIDE" code="ARN" lines="TT" lon="-2.827783" lat="54.202114" name="Arnside"/>
+	<node id="H47" code="H47" lines="TT" lon="-2.788380" lat="54.240662" name="H47"/>
+	<node id="H48" code="H48" lines="TT" lon="-2.748903" lat="54.279198" name="H48"/>
+	<node id="OXHOLMLAK" code="OXN" lines="TT" lon="-2.722249" lat="54.305169" name="Oxenholme Lake District"/>
+	<node id="KENDAL" code="KEN" lines="TT" lon="-2.739667" lat="54.332108" name="Kendal"/>
+	<node id="H49" code="H49" lines="TT" lon="-2.672881" lat="54.354390" name="H49"/>
+	<node id="H50" code="H50" lines="TT" lon="-2.606022" lat="54.376634" name="H50"/>
+	<node id="H51" code="H51" lines="TT" lon="-2.539091" lat="54.398842" name="H51"/> 
+	<node id="H52" code="H52" lines="TT" lon="-2.472087" lat="54.421013" name="H52"/>
+	<node id="H53" code="H53" lines="TT" lon="-2.405011" lat="54.443147" name="H53"/>
+	<node id="KIRBYSTPH" code="KSW" lines="TT" lon="-2.368603" lat="54.455135" name="Kirkby Stephen"/>
+	<node id="H54" code="H54" lines="TT" lon="-2.337154" lat="54.464473" name="H54"/>
+	<node id="H55" code="H55" lines="TT" lon="-2.268387" lat="54.484849" name="H55"/>
+	<node id="H56" code="H56" lines="TT" lon="-2.199552" lat="54.505185" name="H56"/>
+	<node id="H57" code="H57" lines="TT" lon="-2.130647" lat="54.525483" name="H57"/>
+	<node id="H58" code="H58" lines="TT" lon="-2.061676" lat="54.545741" name="H58"/>
+	<node id="H59" code="H59" lines="TT" lon="-1.992636" lat="54.565959" name="H59"/>
+	<node id="H60" code="H60" lines="TT" lon="-1.923528" lat="54.586138" name="H60"/>
+	<node id="H61" code="H61" lines="TT" lon="-1.854350" lat="54.606278" name="H61"/>
+	<node id="H62" code="H62" lines="TT" lon="-1.785103" lat="54.626378" name="H62"/>
+	<node id="H63" code="H63" lines="TT" lon="-1.715791" lat="54.646438" name="H63"/>
+	<node id="BISHPAUKLD" code="BIA" lines="TT" lon="-1.677545" lat="54.657482" name="Bishop Auckland"/>
+	<node id="H64" code="H64" lines="TT" lon="-1.601840" lat="54.647887" name="H64"/>
+	<node id="H65" code="H65" lines="TT" lon="-1.526171" lat="54.638245" name="H65"/>
+	<node id="H66" code="H66" lines="TT" lon="-1.450540" lat="54.628556" name="H66"/>
+	<node id="H67" code="H67" lines="TT" lon="-1.374944" lat="54.618820" name="H67"/>
+	<node id="H68" code="H68" lines="TT" lon="-1.299385" lat="54.609037" name="H68"/>
+	<node id="BILINGHAM" code="BIL" lines="TT" lon="-1.278525" lat="54.606327" name="Billingham"/>
+	<node id="MIDLBROGH" code="MBR" lines="TT" lon="-1.232596" lat="54.579086" name="Middlesbrough"/> 
+
+
+	<!--EAST-->
+	<edge id="t0" source="ASKAM" target="H45">
+		<data key="Weight">210</data>
+	</edge>
+	<edge id="t1" source="H45" target="ULVRSTON">
+		<data key="Weight">841</data>
+	</edge>
+	<edge id="t2" source="ULVRSTON" target="H46">
+		<data key="Weight">230</data>
+	</edge>
+	<edge id="t3" source="H46" target="CARK">
+		<data key="Weight">230</data>
+	</edge>
+	<edge id="t4" source="CARK" target="GRNGEOSND">
+		<data key="Weight">381</data>
+	</edge>
+	<edge id="t5" source="GRNGEOSND" target="ARNSIDE">
+		<data key="Weight">415</data>
+	</edge>
+	<edge id="t6" source="ARNSIDE" target="H47">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t7" source="H47" target="H48">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t8" source="H48" target="OXHOLMLAK">
+		<data key="Weight">256</data>
+	</edge>
+	<edge id="t9" source="OXHOLMLAK" target="KENDAL">
+		<data key="Weight">1154</data>
+	</edge>
+	<edge id="t10" source="KENDAL" target="H49">
+		<data key="Weight">1125</data>
+	</edge>
+	<edge id="t11" source="H49" target="H50">
+		<data key="Weight">1125</data>
+	</edge>
+	<edge id="t12" source="H50" target="H51">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t13" source="H51" target="H52">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t14" source="H52" target="H53">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t15" source="H53" target="KIRBYSTPH">
+		<data key="Weight">651</data>
+	</edge>
+	<edge id="t16" source="KIRBYSTPH" target="H54">
+		<data key="Weight">549</data>
+	</edge>
+	<edge id="t17" source="H54" target="H55">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t18" source="H55" target="H56">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t19" source="H56" target="H57">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t20" source="H57" target="H58">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t21" source="H58" target="H59">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t22" source="H59" target="H60">
+		<data key="Weight">2571</data>
+	</edge>
+	<edge id="t23" source="H60" target="H61">
+		<data key="Weight">367</data>
+	</edge>
+	<edge id="t24" source="H61" target="H62">
+		<data key="Weight">367</data>
+	</edge>
+	<edge id="t25" source="H62" target="H63">
+		<data key="Weight">563</data>
+	</edge>
+	<edge id="t26" source="H63" target="BISHPAUKLD">
+		<data key="Weight">165</data>
+	</edge>
+	<edge id="t27" source="BISHPAUKLD" target="H64">
+		<data key="Weight">2251</data>
+	</edge>
+	<edge id="t28" source="H64" target="H65">
+		<data key="Weight">1385</data>
+	</edge>
+	<edge id="t29" source="H65" target="H66">
+		<data key="Weight">1385</data>
+	</edge>
+	<edge id="t30" source="H66" target="H67">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t31" source="H67" target="H68">
+		<data key="Weight">383</data>
+	</edge>
+	<edge id="t32" source="H68" target="BILINGHAM">
+		<data key="Weight">83</data>
+	</edge>
+	<edge id="t33" source="BILINGHAM" target="MIDLBROGH">
+		<data key="Weight">1389</data>
+	</edge>
+
+	<!--WEST-->
+	<edge id="t34" source="H45" target="ASKAM">
+		<data key="Weight">210</data>
+	</edge>
+	<edge id="t35" source="ULVRSTON" target="H45">
+		<data key="Weight">841</data>
+	</edge>
+	<edge id="t36" source="H46" target="ULVRSTON">
+		<data key="Weight">230</data>
+	</edge>
+	<edge id="t37" source="CARK" target="H46">
+		<data key="Weight">230</data>
+	</edge>
+	<edge id="t38" source="GRNGEOSND" target="CARK">
+		<data key="Weight">381</data>
+	</edge>
+	<edge id="t39" source="ARNSIDE" target="GRNGEOSND">
+		<data key="Weight">415</data>
+	</edge>
+	<edge id="t40" source="H47" target="ARNSIDE">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t41" source="H48" target="H47">
+		<data key="Weight">1637</data>
+	</edge>
+	<edge id="t42" source="OXHOLMLAK" target="H48">
+		<data key="Weight">256</data>
+	</edge>
+	<edge id="t43" source="KENDAL" target="OXHOLMLAK">
+		<data key="Weight">1154</data>
+	</edge>
+	<edge id="t44" source="H49" target="KENDAL">
+		<data key="Weight">1125</data>
+	</edge>
+	<edge id="t45" source="H50" target="H49">
+		<data key="Weight">1125</data>
+	</edge>
+	<edge id="t46" source="H51" target="H50">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t47" source="H52" target="H51">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t48" source="H53" target="H52">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t49" source="KIRBYSTPH" target="H53">
+		<data key="Weight">651</data>
+	</edge>
+	<edge id="t50" source="H54" target="KIRBYSTPH">
+		<data key="Weight">549</data>
+	</edge>
+	<edge id="t51" source="H55" target="H54">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t52" source="H56" target="H55">
+		<data key="Weight">1200</data>
+	</edge>
+	<edge id="t53" source="H57" target="H56">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t54" source="H58" target="H57">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t55" source="H59" target="H58">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t56" source="H60" target="H59">
+		<data key="Weight">2571</data>
+	</edge>
+	<edge id="t57" source="H61" target="H60">
+		<data key="Weight">367</data>
+	</edge>
+	<edge id="t58" source="H62" target="H61">
+		<data key="Weight">367</data>
+	</edge>
+	<edge id="t59" source="H63" target="H62">
+		<data key="Weight">563</data>
+	</edge>
+	<edge id="t60" source="BISHPAUKLD" target="H63">
+		<data key="Weight">165</data>
+	</edge>
+	<edge id="t61" source="H64" target="BISHPAUKLD">
+		<data key="Weight">2251</data>
+	</edge>
+	<edge id="t62" source="H65" target="H64">
+		<data key="Weight">1385</data>
+	</edge>
+	<edge id="t63" source="H66" target="H65">
+		<data key="Weight">1385</data>
+	</edge>
+	<edge id="t64" source="H67" target="H66">
+		<data key="Weight">2572</data>
+	</edge>
+	<edge id="t65" source="H68" target="H67">
+		<data key="Weight">383</data>
+	</edge>
+	<edge id="t66" source="BILINGHAM" target="H68">
+		<data key="Weight">83</data>
+	</edge>
+	<edge id="t67" source="MIDLBROGH" target="BILINGHAM">
+		<data key="Weight">1389</data>
+	</edge>
+
+  </graph>
+</graphml>
+
+
