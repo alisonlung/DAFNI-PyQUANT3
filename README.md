@@ -34,10 +34,10 @@ Scenarios:
 5. Horizontal (H4) link connecting Askam-in-Furness to Middlesbrough - Route 2
 
 The geographic presentation of these case studies can be viewed in the “scenarios_qgis” folder:
-- uk_tyne-tees.qgs
-- Tyne-Tees_stations.shp: filtered exisitng stations in the Tyne-Tees Cluster
-- Tyne-Tees_impact.shp: high impact clusters in the Tyne-Tees Cluster (include both CkDiffRail and savedSecsRail)
-- "scenarios" folder: digtised points of nodes in scenarios 
-- "distance matrix" folder: distance matrix of all exisiting stations and filtered links that have distance smaller or equal to threshold
-- "impacts" folder: high impact areas in CkDiffRail and savedSecsRail (filtered from choropleths)
-- "additional" folder: additional links and points that connect pairs that have distance larger than threshold 
+- _uk_tyne-tees.qgs_
+- _Tyne-Tees_stations.shp_: filtered exisitng stations in the Tyne-Tees Cluster
+- _Tyne-Tees_impact.shp_: high impact clusters in the Tyne-Tees Cluster (include both CkDiffRail and savedSecsRail)
+- _"scenarios" folder_: digtised points of nodes in scenarios 
+- _"distance matrix" folder_: distance matrix of all exisiting stations and filtered links that have distance smaller or equal to threshold
+- _"impacts" folder_: high impact areas in CkDiffRail and savedSecsRail (filtered from choropleths)
+- _"additional" folder_: additional links and points that connect pairs that have distance larger than threshold 
