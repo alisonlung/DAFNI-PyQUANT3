@@ -246,6 +246,9 @@ def plot_CkDiffRail_localflowmap(merged_df, regions):
         tmax = region_df['CkDiffRail'].max()
         tmin = region_df['CkDiffRail'].min()
         norm = Normalize(tmin, tmax)
+
+        #set up figure size
+        limit = fig_size(region_df)
     
         #plot arrows
         fig, ax = plt.subplots(figsize=(7.5, 5))
@@ -262,8 +265,10 @@ def plot_CkDiffRail_localflowmap(merged_df, regions):
     
         #set up plot  
         #set plot limits
-        ax.set_xlim(bbox[0] - 10000, bbox[2] + 10000)  
-        ax.set_ylim(bbox[1] - 10000, bbox[3] + 10000) 
+        ax.set_xlim(limit[0], limit[1])
+        ax.set_ylim(limit[2], limit[3])
+        #set equal aspect ratio
+        ax.set_aspect('equal')
         #basemap
         cx.add_basemap(ax, crs=ccrs.epsg(27700), source=cx.providers.CartoDB.Positron)
         #colourbar
@@ -298,6 +303,9 @@ def plot_savedSecsRail_localflowmap(merged_df, regions):
         tmax = region_df[' savedSecsRail'].max()
         tmin = region_df[' savedSecsRail'].min()
         norm = Normalize(tmin, tmax)
+
+        #set up figure size
+        limit = fig_size(region_df)
     
         #plot arrows
         fig, ax = plt.subplots(figsize=(7.5, 5))
@@ -314,8 +322,10 @@ def plot_savedSecsRail_localflowmap(merged_df, regions):
     
         #set up plot 
         #set plot limits
-        ax.set_xlim(bbox[0] - 10000, bbox[2] + 10000)  
-        ax.set_ylim(bbox[1] - 10000, bbox[3] + 10000) 
+        ax.set_xlim(limit[0], limit[1])
+        ax.set_ylim(limit[2], limit[3])
+        #set equal aspect ratio
+        ax.set_aspect('equal')
         #basemap
         cx.add_basemap(ax, crs=ccrs.epsg(27700), source=cx.providers.CartoDB.Positron)
         #colourbar
@@ -325,7 +335,38 @@ def plot_savedSecsRail_localflowmap(merged_df, regions):
         ax.set_title(f'{region_name}')
 
         #export
-        plt.savefig(f"outputs/rail/savedSecsRail_flowmap_{region_name}.png", transparent=True)  
+        plt.savefig(f"outputs/rail/savedSecsRail_flowmap_{region_name}.png", transparent=True)
+
+# Function for standard figure size
+def fig_size(region_df):
+    #figure size & aspect ratio
+    fig_width = 7.5
+    fig_height = 5
+    aspect_ratio = fig_width / fig_height
+
+    #overall limits based on region_df
+    overall_x_min = region_df['centroid_i'].x.min()
+    overall_x_max = region_df['centroid_i'].x.max()
+    overall_y_min = region_df['centroid_i'].y.min()
+    overall_y_max = region_df['centroid_i'].y.max()
+
+    #width and height of the data range from overall limits
+    data_width = overall_x_max - overall_x_min
+    data_height = overall_y_max - overall_y_min
+
+    #adjust limits to maintain the desired aspect ratio
+    if data_width / data_height > aspect_ratio:
+        #adjust height based on width
+        adjusted_height = data_width / aspect_ratio
+        overall_y_min -= (adjusted_height - data_height) / 2
+        overall_y_max += (adjusted_height - data_height) / 2
+    else:
+        #adjust width based on height
+        adjusted_width = data_height * aspect_ratio
+        overall_x_min -= (adjusted_width - data_width) / 2
+        overall_x_max += (adjusted_width - data_width) / 2
+    
+    return [overall_x_min, overall_x_max, overall_y_min, overall_y_max] 
 
 ################################################################################
 
